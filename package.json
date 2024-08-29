@@ -1,12 +1,17 @@
 {
   "name": "prosquadusa",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "landing page for electronic devices support services",
+  "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
 }
